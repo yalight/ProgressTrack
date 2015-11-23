@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProgressTrack" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0sE-KO-ifw" customClass="ProgressTrack" customModule="ProgressTrack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="28" width="560" height="62"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0sE-KO-ifw" secondAttribute="height" multiplier="280:31" id="AFe-ec-Wss"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="gapWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressValue">
+                                        <real key="value" value="0.59999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress value = 0.6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kK-1r-KzK">
+                                <rect key="frame" x="20" y="98" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nkv-q4-Dr8" customClass="ProgressTrack" customModule="ProgressTrack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="132" width="560" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="y6m-gm-zJN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="gapWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYm-yE-YEb" customClass="ProgressTrack" customModule="ProgressTrack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="175" width="560" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="asH-hW-54E"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="gapWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eyx-Ju-dWG" customClass="ProgressTrack" customModule="ProgressTrack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="218" width="560" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="WBK-CZ-9sr"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="gapWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZs-GO-kja" customClass="ProgressTrack" customModule="ProgressTrack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="261" width="560" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="zLl-wH-YzY"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="gapWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0y7-rb-FSH" customClass="ProgressTrack" customModule="ProgressTrack" customModuleProvider="target">
+                                <rect key="frame" x="20" y="310" width="560" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Jjp-jt-erV"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressValue">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="gapWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="barHeightRatio">
+                                        <real key="value" value="0.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="6kK-1r-KzK" secondAttribute="trailing" id="0SK-oR-5yK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qYm-yE-YEb" secondAttribute="trailing" id="4hQ-Cx-WmI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0sE-KO-ifw" secondAttribute="trailing" id="6Qk-XS-aY8"/>
+                            <constraint firstItem="Nkv-q4-Dr8" firstAttribute="top" secondItem="6kK-1r-KzK" secondAttribute="bottom" constant="13" id="CVP-YX-qbb"/>
+                            <constraint firstItem="6kK-1r-KzK" firstAttribute="top" secondItem="0sE-KO-ifw" secondAttribute="bottom" constant="8" id="Hmy-qf-5rp"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="6kK-1r-KzK" secondAttribute="leading" id="IHm-bd-voR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Nkv-q4-Dr8" secondAttribute="leading" id="IgK-Yz-NY8"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="0y7-rb-FSH" secondAttribute="leading" id="Jez-G9-jWz"/>
+                            <constraint firstItem="0sE-KO-ifw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="NNg-QB-ycy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Nkv-q4-Dr8" secondAttribute="trailing" id="O6H-3G-C87"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eyx-Ju-dWG" secondAttribute="trailing" id="Pyt-mE-WY4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bZs-GO-kja" secondAttribute="trailing" id="SN3-fC-sle"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="bZs-GO-kja" secondAttribute="leading" id="UTJ-la-DLw"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="0sE-KO-ifw" secondAttribute="leading" id="XMX-Gf-wpH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0y7-rb-FSH" secondAttribute="trailing" id="bJ5-Vz-am5"/>
+                            <constraint firstItem="eyx-Ju-dWG" firstAttribute="top" secondItem="qYm-yE-YEb" secondAttribute="bottom" constant="13" id="cDh-H0-K9H"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="eyx-Ju-dWG" secondAttribute="leading" id="e7c-xR-2xI"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="qYm-yE-YEb" secondAttribute="leading" id="kDD-my-WVv"/>
+                            <constraint firstItem="bZs-GO-kja" firstAttribute="top" secondItem="eyx-Ju-dWG" secondAttribute="bottom" constant="13" id="kDG-77-tXI"/>
+                            <constraint firstItem="0y7-rb-FSH" firstAttribute="top" secondItem="bZs-GO-kja" secondAttribute="bottom" constant="13" id="o6g-pW-whE"/>
+                            <constraint firstItem="qYm-yE-YEb" firstAttribute="top" secondItem="Nkv-q4-Dr8" secondAttribute="bottom" constant="13" id="w7H-Fe-UaL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressLabel1" destination="6kK-1r-KzK" id="POW-iN-hCm"/>
+                        <outlet property="progressTrack1" destination="0sE-KO-ifw" id="AIz-V4-mdH"/>
+                        <outlet property="progressTrack2" destination="Nkv-q4-Dr8" id="PbA-wr-Rqp"/>
+                        <outlet property="progressTrack3" destination="qYm-yE-YEb" id="v9T-Ga-ejn"/>
+                        <outlet property="progressTrack4" destination="eyx-Ju-dWG" id="HR1-I0-P0k"/>
+                        <outlet property="progressTrack5" destination="bZs-GO-kja" id="R83-5r-Qpw"/>
+                        <outlet property="progressTrack6" destination="0y7-rb-FSH" id="wxx-HU-wmI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="158" y="260"/>
+        </scene>
+    </scenes>
+</document>
